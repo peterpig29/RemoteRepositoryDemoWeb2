@@ -23,4 +23,12 @@
   <servlet-name>DemoServlet</servlet-name>
   <url-pattern>/view/DemoServlet</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <servlet-name>SendPictureServlet</servlet-name>
+    <servlet-class>view.SendPictureServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SendPictureServlet</servlet-name>
+    <url-pattern>/view/SendPictureServlet</url-pattern>
+  </servlet-mapping>
 </web-app>
