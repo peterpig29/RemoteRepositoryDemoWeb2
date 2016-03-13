@@ -15,4 +15,12 @@
     <res-auth>Container</res-auth>
     <res-sharing-scope>Shareable</res-sharing-scope>
   </resource-ref>
+   <servlet>
+  <servlet-name>DemoServlet</servlet-name>
+  <servlet-class>view.DemoServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>DemoServlet</servlet-name>
+  <url-pattern>/view/DemoServlet</url-pattern>
+  </servlet-mapping>
 </web-app>
