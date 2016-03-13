@@ -15,13 +15,23 @@
     <res-auth>Container</res-auth>
     <res-sharing-scope>Shareable</res-sharing-scope>
   </resource-ref>
-   <servlet>
-  <servlet-name>DemoServlet</servlet-name>
-  <servlet-class>view.DemoServlet</servlet-class>
+  
+  <servlet>
+      <servlet-name>TestServlet</servlet-name>
+      <servlet-class>view.TestServlet</servlet-class>
   </servlet>
   <servlet-mapping>
-  <servlet-name>DemoServlet</servlet-name>
-  <url-pattern>/demo2.view</url-pattern>
+      <servlet-name>TestServlet</servlet-name>
+      <url-pattern>/test.view</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>DemoServlet</servlet-name>
+    <servlet-class>view.DemoServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DemoServlet</servlet-name>
+    <url-pattern>/demo2.view</url-pattern>
   </servlet-mapping>
   <servlet>
     <servlet-name>SendPictureServlet</servlet-name>
