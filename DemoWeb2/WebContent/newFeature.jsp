@@ -10,6 +10,7 @@
 
 <h1>This is a new Feature</h1>
 <h1>This is another new Feature</h1>
+
 <h3><a href="/DemoWeb2/function/test.view">TestServlet</a></h3>
 
 </body>

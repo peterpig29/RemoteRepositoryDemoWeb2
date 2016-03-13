@@ -1,6 +1,7 @@
 package view;
 
 import java.io.IOException;
+
 import java.io.PrintWriter;
 import java.util.Enumeration;
 
@@ -26,10 +27,10 @@ public class TestServlet extends HttpServlet {
 			out.println("</h3>");
 		}
 		out.close();
-		
 	}
 	protected void doPost(HttpServletRequest request,
 			HttpServletResponse response) throws ServletException, IOException {
 		this.doGet(request, response);
 	}
+
 }
