@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-<form action="view/DemoServlet" method="post">
+<form action="/DemoWeb2/function/demo1.view" method="post">
 <input type="text" name="username">
 <input type="submit" value="送出">
 </form>
